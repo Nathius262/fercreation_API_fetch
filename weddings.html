@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>fer creations</title>
+
+        <link rel="icon" href="" type="image/jpg"  sizes="16x16" />
+        <!---CSS LINK---->
+        <link rel="stylesheet" href="static/css/bootstrap.css" media="all">
+        <link type="text/css" href="static/css/style.css" rel="stylesheet" media="all">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=sans-serif">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Helvetica">
+        <link rel="stylesheet" type="text/css" href="static/css/font-awesome.min.css" />
+
+        <!-- JQ-CROPPER --->
+        <script src="static/js/jquery-2.1.1.min.js"></script>
+
+    </head>
+    <body>
+      <include src="snippets/header.html"></include>
+
+      <section id="section5" class="id_Section5">
+        <div class="container">
+          <div class="row">
+            <div class="fs-1 mb-5 text-center underlined text-muted">Weddings</div>
+            
+
+            <!---first row of image grid------>
+            <div class="row" id="productAppend">
+              <div id="fetch" class="mt-5"><i class="fa fa-spinner fa-spin"></i><span> please wait</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+        
+      <include src="snippets/footer.html"></include>
+      
+
+      <script>
+        $('window').ready(() => {
+          getImageData();
+        })
+      </script>
+
+      <script src="static/js/bootstrap.js"></script>
+      <script type="text/javascript" src="static/js/main.js"></script>
+    </body>    
+
+</html>

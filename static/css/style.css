@@ -1,0 +1,79 @@
+:root{
+    --white: #ffff;
+    --lesswhite: #bababa;
+    --dark-brown: #171717;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#fetch{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    font-size: xx-large;
+}
+
+#home_top{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#home_top2{
+    background-color: #171717;
+    background-image: url('../img/2.jpg');
+    background-size: cover;
+    align-self: center;
+    height: 500px;
+    width: 100%;
+}
+
+#home_top img{
+    margin-top: 100px;
+}
+#home_top .home_top{
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    color: var(--white)
+}
+#home_top .home_top a{
+    color: var(--white);
+}
+
+#section5, #section4, .id_Section5{
+    margin-top: 100px;
+}
+
+#section4{
+    margin-top: 200px !important;
+}
+
+.underlined{
+    text-decoration: underline;
+}
+
+/*
+********
+about page
+********
+*/
+.about_me_img{
+    background-color: var(--dark-brown);
+    background-image: url('../img/a3.jpg');
+    background-size: cover;
+    width: 350px;
+    height: 400px;
+}
+
+#footer{
+    margin-top: 100px;
+    padding-top: 30px;
+    color: var(--white);
+    background-color: var(--dark-brown);
+}
+#footer .text-muted{
+    color: var(--lesswhite) !important;
+}
